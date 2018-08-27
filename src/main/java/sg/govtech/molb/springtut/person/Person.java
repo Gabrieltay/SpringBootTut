@@ -1,6 +1,6 @@
 package sg.govtech.molb.springtut.person;
 
-import sg.govtech.molb.springtut.Address.Address;
+import sg.govtech.molb.springtut.address.Address;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

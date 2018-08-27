@@ -1,4 +1,4 @@
-package sg.govtech.molb.springtut.Address;
+package sg.govtech.molb.springtut.address;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

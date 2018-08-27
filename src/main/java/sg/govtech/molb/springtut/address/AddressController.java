@@ -1,4 +1,4 @@
-package sg.govtech.molb.springtut.Address;
+package sg.govtech.molb.springtut.address;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
