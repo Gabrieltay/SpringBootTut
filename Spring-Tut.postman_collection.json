@@ -162,6 +162,145 @@
 				"description": ""
 			},
 			"response": []
+		},
+		{
+			"name": "Get Addresses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/addresses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addresses"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Add Address - Marina Bay Sands",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"street\": \"Marina Bay Sands\",\n\t\"unit\": \"#25-44\",\n\t\"buildingName\": \"3A\",\n\t\"postal\": 123456\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/addresses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addresses"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Add Address - Gardens By the Bay",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"street\": \"Gardens By the Bay\",\n\t\"unit\": \"#01-01\",\n\t\"buildingName\": \"11\",\n\t\"postal\": 987654\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/addresses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addresses"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update Address - Marina Bay Sands",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"street\": \"Marina Bay Sands Updated\",\n\t\"unit\": \"#25-44 Updated\",\n\t\"buildingName\": \"3A Updated\",\n\t\"postal\": 123456\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/addresses/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addresses",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Address - Marina Bay Sands",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/addresses/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addresses",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
 		}
 	]
 }
