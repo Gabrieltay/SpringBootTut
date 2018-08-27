@@ -57,7 +57,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"entityId\": \"S8889991A\",\n\t\"name\": \"John Doe\",\n\t\"email\": \"johndoe@gmail.com\"\n}"
+					"raw": "{\n  \"entityId\": \"S8889991A\",\n  \"name\": \"John Doe\",\n  \"email\": \"johndoe@gmail.com\",\n  \"address\": {\n    \"street\": \"Marina Bay Sands\",\n    \"unit\": \"#25-44\",\n    \"buildingName\": \"3A\",\n    \"postal\": 123456\n  }\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/persons",
@@ -86,7 +86,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"entityId\": \"S7776662B\",\n\t\"name\": \"Mary Jane\",\n\t\"email\": \"maryjane@hotmail.com\"\n}"
+					"raw": "{\n  \"entityId\": \"S7776662B\",\n  \"name\": \"Mary Jane\",\n  \"email\": \"maryjane@hotmail.com\",\n  \"address\": {\n    \"street\": \"Gardens By the Bay\",\n    \"unit\": \"#01-01\",\n    \"buildingName\": \"11\",\n    \"postal\": 987654\n  }\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/persons",
@@ -115,7 +115,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"entityId\": \"S8889991A\",\n\t\"name\": \"John Doe Updated\",\n\t\"email\": \"johndoe_updated@gmail.com\"\n}"
+					"raw": "{\n  \"entityId\": \"S8889991A\",\n  \"name\": \"John Doe Updated\",\n  \"email\": \"johndoe@gmail.com\",\n  \"address\": {\n    \"street\": \"Marina Bay Sands Updated\",\n    \"unit\": \"#25-44\",\n    \"buildingName\": \"3A\",\n    \"postal\": 123456\n  }\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/persons/S8889991A",
