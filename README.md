@@ -2,7 +2,7 @@
 
 ### Installation 
 
-Create a Spring Boot Application via [Spring Initializer] (https://start.spring.io/).
+Create a Spring Boot Application via [Spring Initializer](https://start.spring.io/).
 
 Switch to Full Version on Configurations
 Checked the following
